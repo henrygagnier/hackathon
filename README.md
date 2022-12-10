@@ -58,6 +58,16 @@ Dec 12, 2022/midnight UTC<br></p>
               eventName: "ready",
               callback: () => {console.log('The chart has finished loading.')}
             }</code>
+            <h4>Chart Zoom</h4>
+<p>This feature was implemented after the first versions were released. By dragging a box around the chart you can zoom in, and by right clicking it will zoom you out.</p>
+<code>const options = {
+  explorer:  {
+  axis: 'horizontal',
+  keepInBounds: true,
+  actions: ['dragToZoom', 'rightClickToReset']
+  }
+}</code><br>
+<p>Change dragToZoom to panToZoom for a different experience while zooming. I personally prefer dragToZoom.</p>
 <h2 id='mobile-comp'>Mobile Compatibility</h2>
 <p>The main section of the websites is built within a div which uses 100% width and a <code>max-width</code> varible set. This varible can be adjusted to preference of you.</p>
 <code>.maincontent {
