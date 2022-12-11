@@ -1,7 +1,3 @@
-.App {
-  text-align: center;
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -11,17 +7,6 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
@@ -36,3 +21,62 @@
     transform: rotate(360deg);
   }
 }
+.maincontent {
+  padding: 1%;
+max-width: 500px;
+margin-top: 2.5%;
+margin-bottom: 2.5%;
+width: 92.5%;
+background-color: white;
+border-radius: 10px;
+border-color: #F7F7F7;
+border-width: 1px;
+border-style: solid;
+margin-right: 2.5%;
+margin-left: 2.5%;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+p {
+  display: inline;
+}
+.b {
+  margin-left: 1.5rem;
+  color: #8878C3;
+}
+.a {
+  margin-right: 1.5rem;
+  color: #8878C3;
+}
+.notcenter {
+  text-align: left;
+}
+p, h1, h2, h3, h4, h5, h6, button, input, textarea,select,option {
+  font-family: 'Inter', sans-serif;
+}
+textarea {
+  width: 100%;
+  resize: none; 
+  outline: none;
+  border: none;
+  font-size: 2rem;
+  columns: 1;
+}
+.loader {
+  width: 48px;
+  height: 48px;
+  border: 5px solid #FFF;
+  border-bottom-color: #8878C3;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+  }
+
+  @keyframes rotation {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+  } 
