@@ -16,13 +16,13 @@ const options = {
     title: "Price",
     
   },
-  interpolateNulls: true
+  interpolateNulls: true,
 };
 
 class charts extends Component {
   constructor(props) {
     super(props);
-    this.state = { Token1Data: [], Token2Data: [], sort2: false, sort1: false };
+    this.state = { Token1Data: [], Token2Data: [], sort2: false, sort1: false, data : [[null, null],[null, null]] };
     this.getDays();
   }
 
@@ -169,7 +169,7 @@ class charts extends Component {
         }
         data.push(element);
       }
-      for (let i = 0; i < (365 - this.props.days); i++) {
+      for (let i = 0; i < 0; i++) {
         data.shift();
       }
       const query1 = gql`{

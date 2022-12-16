@@ -1,29 +1,6 @@
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 .maincontent {
   padding: 1%;
-max-width: 500px;
+max-width: 415px;
 margin-top: 2.5%;
 margin-bottom: 2.5%;
 width: 92.5%;
